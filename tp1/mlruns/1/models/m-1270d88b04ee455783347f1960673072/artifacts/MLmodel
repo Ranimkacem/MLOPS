@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/bouzo/Downloads/tp1/tp1/mlruns/1/models/m-1270d88b04ee455783347f1960673072/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.17.1
+model_id: m-1270d88b04ee455783347f1960673072
+model_size_bytes: 163216
+model_uuid: m-1270d88b04ee455783347f1960673072
+prompts: null
+run_id: 7977cf63a9e84718a05fc6581d31522c
+utc_time_created: '2026-10-20 12:59:37.972917'
